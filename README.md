@@ -16,6 +16,11 @@ npx create-nx-workspace@17.2.8 --pm yarn
 ✔ Enable distributed caching to make your CI faster · No
 ```
 
+```sh
+yarn add -D vite@^5.4.0
+yarn add -D vitest@latest @vitest/ui@latest @vitest/coverage-v8@latest @vitest/browser
+```
+
 ## Create a new lib
 
 ```sh
