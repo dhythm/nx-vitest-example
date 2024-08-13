@@ -15,3 +15,13 @@ npx create-nx-workspace@17.2.8 --pm yarn
 ✔ Default stylesheet format · css
 ✔ Enable distributed caching to make your CI faster · No
 ```
+
+## Create a new lib
+
+```sh
+yarn nx generate library foo
+
+✔ Which generator would you like to use? · @nx/react:library
+✔ What unit test runner should be used? · vitest
+✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · vite
+```
