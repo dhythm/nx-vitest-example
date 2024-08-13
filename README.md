@@ -31,8 +31,17 @@ yarn nx generate library foo
 ✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · vite
 ```
 
+```sh
+yarn nx generate library bar
+
+✔ Which generator would you like to use? · @nx/js:library
+✔ Which unit test runner would you like to use? · vitest
+✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · tsc
+```
+
 ## Run vitest test
 
 ```sh
 yarn nx run foo:test
+yarn nx run bar:test
 ```

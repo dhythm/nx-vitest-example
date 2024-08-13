@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-vitest-example/bar": ["bar/src/index.ts"],
       "@nx-vitest-example/foo": ["foo/src/index.ts"]
     }
   },
