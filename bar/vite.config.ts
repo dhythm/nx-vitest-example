@@ -14,6 +14,11 @@ export default defineConfig({
   // },
 
   test: {
+    browser: {
+      enabled: true,
+      name: 'chromium',
+      provider: 'playwright',
+    },
     globals: true,
     cache: { dir: '../node_modules/.vitest' },
     environment: 'node',
