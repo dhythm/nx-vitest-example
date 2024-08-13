@@ -25,3 +25,9 @@ yarn nx generate library foo
 ✔ What unit test runner should be used? · vitest
 ✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · vite
 ```
+
+## Run vitest test
+
+```sh
+yarn nx run foo:test
+```
